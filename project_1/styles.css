@@ -1,0 +1,35 @@
+
+.gameboard {
+    background-color: #0000ff;
+    display: flex; 
+    flex-direction: row;
+}
+
+.category {
+    /* background-color: #ffffff; */
+    margin: 0;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+.gametile {
+    background-color: #1720f4;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-style: font-family:'Roboto', sans-serif;
+    color: #f59849; 
+    border: 3px solid black;
+    text-align: center;
+}
+
+  #cathead {
+      font-style: oblique;
+      font-size: 15px;
+      border: 12px solid goldenrod;
+  }
+    
+
+  

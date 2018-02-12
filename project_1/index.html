@@ -1,14 +1,72 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Jeopardy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="heading">
+
+            <div class="Game">Jeopardy</div>
+            <div class="players"> Player 1 <input></input></div>
+            <div class="players"> Player 2 <input></input></div>    
+    </div>
+    <div class="gameboard"> 
+
+        <div class="category" id="cat1">
+            <div class="gametile" id="cathead">GAGA for GA</div>
+            <div class="gametile" id="100">100</div>
+            <div class="gametile" id="200">200</div>
+            <div class="gametile" id="300">300</div>
+            <div class="gametile" id="400">400</div>
+        </div>
+
+        <div class="category" id="cat2">
+            <div class="gametile" id="cathead">Star Wars</div>
+            <div class="gametile" id="100">100</div>
+            <div class="gametile" id="200">200</div>
+            <div class="gametile" id="300">300</div>
+            <div class="gametile" id="400">400</div>
+        </div>
+
+        <div class="category" id="cat3">
+            <div class="gametile" id="cathead">Who Dat?</div>
+            <div class="gametile" id="100">100</div>
+            <div class="gametile" id="200">200</div>
+            <div class="gametile" id="300">300</div>
+            <div class="gametile" id="400">400</div>
+        
+        </div>
+
+        <div class="category" id="cat4">
+            <div class="gametile" id="cathead">Sup Teach!</div>
+            <div class="gametile" id="100">100</div>
+            <div class="gametile" id="200">200</div>
+            <div class="gametile" id="300">300</div>
+            <div class="gametile" id="400">400</div>
+
+        </div>
+
+        <div class="category" id="cat5">
+            <div class="gametile" id="cathead">Metro Blues</div>
+            <div class="gametile" id="100">100</div>
+            <div class="gametile" id="100">200</div>
+            <div class="gametile" id="100">300</div>
+            <div class="gametile" id="100">400</div>
+        </div>
+
+    </div>
+    <div class="question">
+        <Input></Input>
+    </div>
+    <div class="answer">
+        <Input></Input>
+    </div>
+
+<script src="jeopardy.js"></script>
 </body>
 </html>
