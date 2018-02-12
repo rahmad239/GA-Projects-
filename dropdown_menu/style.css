@@ -1,0 +1,20 @@
+body {
+    
+    background: #c7b6a8;
+    border-style: solid;
+    border-width: 12px; 
+    border: white;  
+    color: grey, .5;
+    height: auto;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fbfbfb;
+    justify-content: space-around;
+    margin: 450px;
+    color: grey, .5;
+}
