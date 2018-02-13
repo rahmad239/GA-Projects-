@@ -26,6 +26,26 @@ var ga300 = function () {
   cat: 'gagaForGa'
   tile: '#cat1 .300'
 }
+//define buttons//
+var buttons = document.querySelector('.cat1 .Q100')
+//qselector wont work any other way....ask about this!! 
+//also can this be a variable to assign the selector?
+buttons.addEventListener('click',showQuestion)
+function showQuestion (evt) {
+  console.log('test Q1') 
+//figure out how to get the test question in
+}
+
+var buttons = document.querySelector('.cat1 .Q200')
+buttons.addEventListener('click',showQuestion)
+function showQuestion (evt) {
+  console.log('test Q2') 
+
+var buttons = document.querySelector('.cat1 .Q300')
+buttons.addEventListener('click',showQuestion)
+function showQuestion (evt) {
+  console.log('test Q3') 
+
 
 // var gagaForGa100 = document.querySelectorAll("#cat1.100")
 // gagaForGa100.addEventListner('click', displayQ100)
@@ -33,7 +53,7 @@ var ga300 = function () {
 // function displayQ100 (){
 //     return (ga100[0])
 // }
-console.log(document.querySelectorAll('.cat1').value)
+// console.log(document.querySelectorAll('.cat1').value)
 
 // var gagaForGa400 = document.querySelector('#cat1.400')
 //     Question: What time does the office close for students?
