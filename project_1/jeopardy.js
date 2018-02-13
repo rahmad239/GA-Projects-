@@ -27,25 +27,25 @@ var ga300 = function () {
   tile: '#cat1 .300'
 }
 //define buttons//
-var buttons = document.querySelector('.cat1 .Q100')
+var gaga1button = document.querySelector('.cat1 .Q100')
 //qselector wont work any other way....ask about this!! 
 //also can this be a variable to assign the selector?
-buttons.addEventListener('click',showQuestion)
-function showQuestion (evt) {
+gaga1button.addEventListener('click',showQuestion1)
+function showQuestion1 (evt) {
   console.log('test Q1') 
 //figure out how to get the test question in
 }
 
-var buttons = document.querySelector('.cat1 .Q200')
-buttons.addEventListener('click',showQuestion)
-function showQuestion (evt) {
+var gaga2button = document.querySelector('.cat1 .Q200')
+gaga2button.addEventListener('click',showQuestion2)
+function showQuestion2 (evt) {
   console.log('test Q2') 
-
-var buttons = document.querySelector('.cat1 .Q300')
-buttons.addEventListener('click',showQuestion)
-function showQuestion (evt) {
+}
+var gaga3button = document.querySelector('.cat1 .Q300')
+gaga3button.addEventListener('click',showQuestion3)
+function showQuestion3 (evt) {
   console.log('test Q3') 
-
+}
 
 // var gagaForGa100 = document.querySelectorAll("#cat1.100")
 // gagaForGa100.addEventListner('click', displayQ100)
