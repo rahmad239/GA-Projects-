@@ -28,6 +28,7 @@ heading {
     color: #f59849; 
     border: 3px solid black;
     text-align: center;
+    display: flex;
 }
 
   #cathead {
@@ -43,4 +44,14 @@ heading {
     font-style: italic;
 }
 
+button {
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-style: font-family:'Roboto', sans-serif;
+    color: #f59849;
+    border: 1px solid #1720f4;
+    flex: 1;
+}
 

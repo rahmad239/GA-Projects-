@@ -1,33 +1,42 @@
-var gagaForGa100 = function () {
-    Question: How many jars of crunchy peanut butter containers are put out daily?
-    Answer: '2'
-    opt1: '3'
-    opt2:'2'
-    opt3:'1'
-    cat: 'gagaForGa'
-    loc: '#cat1.100'
+var ga100 = function () {
+  Question: 'How many jars of crunchy peanut butter containers are put out daily?'
+  Answer: '2'
+  opt1: '3'
+  opt2:'2'
+  opt3:'1'
+  cat: 'gagaForGa'
+  loc: '#cat1 .100'
 }
-var gagaForGa200 = function () {
-    Question: What caused the fire alarm to sound last time it went off?
-    Answer: 'Burning Popcorn'
-    opt1: 'Burning Bread'
-    opt2: 'Burning Plastic'
-    opt3: 'Burning Popcorn'
-    cat: 'gagaForGa'
-    tile: '#cat1.200'
+var ga200 = function () {
+  Question: 'What caused the fire alarm to sound last time it went off?'
+  Answer: 'Burning Popcorn'
+  opt1: 'Burning Bread'
+  opt2: 'Burning Plastic'
+  opt3: 'Burning Popcorn'
+  cat: 'gagaForGa'
+  tile: '#cat1 .200'
+}
 
-var gagaForGa300 = function() { 
-    Question: What animal does the robot near the bathroom claim to be?
-    Answer: 'Unicorn'
-    opt1: 'Unicorn'
-    opt2: 'Bunny Rabbit'
-    opt3: 'Puppy'
-    cat: 'gagaForGa'
-    tile: '#cat1.300'
+var ga300 = function () {
+  Question: 'What animal does the robot near the bathroom claim to be?'
+  Answer: 'Unicorn'
+  opt1: 'Unicorn'
+  opt2: 'Bunny Rabbit'
+  opt3: 'Puppy'
+  cat: 'gagaForGa'
+  tile: '#cat1 .300'
+}
 
+// var gagaForGa100 = document.querySelectorAll("#cat1.100")
+// gagaForGa100.addEventListner('click', displayQ100)
+
+// function displayQ100 (){
+//     return (ga100[0])
+// }
+console.log(document.querySelectorAll('.cat1').value)
 
 // var gagaForGa400 = document.querySelector('#cat1.400')
-//     Question: What time does the office close for students? 
+//     Question: What time does the office close for students?
 //     Answer: '10'
 //     opt1: '11'
 //     opt2: '10:30'
@@ -41,12 +50,11 @@ var gagaForGa300 = function() {
 //     opt3: 'Christian & Anastasia'
 
 // var starWars200 = document.querySelector('#cat2.200')
-//     Question: Hans solo had one main fighting companion. What was their name? 
-//     Answer: 
+//     Question: Hans solo had one main fighting companion. What was their name?
+//     Answer:
 //     opt1: 'Hans & Leia'
 //     opt2: 'Luke & Leslie'
 //     opt3: 'Christian & Anastasia'
-
 
 // let instructors = ["meg", "zakk", "perry", "james", "ali", "max", "mike"]
 // let currentInstructor = prompt('Who is currently teaching?')
