@@ -9,9 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+    <div class="Game">
+                <h1> Jeopardy</h1>
+    </div>
     <div class="heading">
-
-            <div class="Game"> Jeopardy</div>
+            <div class="intro">
+            Welcome! When the button at the bottom is clicked, the question and answers below will     
+            progress to the next question and respective answer chioces. Good luck!
+            </div>
             <div class="players field"> Player 1 <input></input></div>
             <div class="players field"> Player 2 <input></input></div>    
     </div>
@@ -57,9 +62,11 @@
     </div>
 
     <form class="radios">
-            <input type="radio"><label id="opt1">Option 1</label></input><br>
-            <input type="radio"><label id="opt2">Option 2</label></input><br>
-            <input type="radio"><label id="opt3">Option 3</label></input><br>
+            <input type="radio" name="choice" value="1"><label id="opt1">Option 1</label></input><br>
+            <input type="radio" name="choice" value="1"><label id="opt2">Option 2</label></input><br>
+            <input type="radio" name="choice" value="1"><label id="opt3">Option 3</label></input><br>
+            <br>
+            <button class="daFinal">CHECK ANSWER!</button>
     </form>
 
     <script src="jeopardy.js"></script>
