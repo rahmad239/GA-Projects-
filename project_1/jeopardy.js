@@ -82,46 +82,38 @@ var board2 = [
 // this is the start of a new section***********************************
 var board3 = [
   {
-    title: "Classmates? Who day?",
-    questionsData: [        
+    title: 'Classmates? Who day?',
+    questionsData: [
       {question: 'How many students are in WDI 21?',
-        answers:  [
+        answers: [
           '21',
           '19',
           '18'
         ],
         correctAnswer: '19'
       },
-      {question: 'Who traveles the farthest to attend the program?',
-        answers:  [
+      {question: 'Who traveled the farthest to attend the program?',
+        answers: [
           'Qya',
           'Kevin',
           'Timmy'
         ],
-        correctAnswer: 'Qya',
+        correctAnswer: 'Qya'
       },
-      {question:'How many students wear glasses to class?',
-        answers:  [
+      {question: 'How many students wear glasses to class?',
+        answers: [
           '11',
           '14',
           '7'
         ],
-        correctAnswer: '7',
+        correctAnswer: '7'
       },
-      {question: 'How many students live with their parents for the class?',
+      {question: 'How many students previously attended classes in programing prior to the cohort?',
         answers: [
-          '7',
-          '9',
-          '13'
+          '4',
+          '3',
+          '8'
         ],
-        correctAnswer: '11'
-      },
-        {question: 'How many students previously attended classes in programing prior to the cohort?',
-          answers: [
-            '4',
-            '3',
-            '8'
-        ]
         correctAnswer: '8'
       }
     ]
@@ -306,7 +298,7 @@ var board3 = [
 //   radioTwo.innerHTML = AnswerChoice2
 //   radioThree.innerHTML = AnswerChoice3
 // }
-//SW question 2
+// SW question 2
 // var sW2button = document.querySelector('.cat2 .q200')
 // sW2button.addEventListener('click',showQuestion2)
 // function showQuestion2 (evt) {
@@ -380,7 +372,201 @@ var board3 = [
 //   radioThree.innerHTML=AnswerChoice3
 // }
 
+// // WD question 1
+// var wD1button = document.querySelector('.cat3 .q100')
+// wD1button.addEventListener('click', showQuestion1)
+// function showQuestion1 (evt) {
+//   console.log('test Q1')
 
+//   var qDisplayField = document.querySelector('.question-display')
+//   var radioOne = document.getElementById('opt1')
+//   var AnswerChoice1 = board3[0].questionsData[0].answers[0]
+//   console.log(AnswerChoice1)
+
+//   var radioTwo = document.getElementById('opt2')
+//   var AnswerChoice2 = board3[0].questionsData[0].answers[1]
+//   console.log(AnswerChoice2)
+
+//   var radioThree = document.getElementById('opt3')
+//   var AnswerChoice3 = board3[0].questionsData[0].answers[2]
+//   console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML = board3[0].questionsData[0].question
+//   radioOne.innerHTML = AnswerChoice1
+//   radioTwo.innerHTML = AnswerChoice2
+//   radioThree.innerHTML = AnswerChoice3
+// }
+// // WD question 2
+// var wD2button = document.querySelector('.cat3 .q200')
+// wD2button.addEventListener('click',showQuestion2)
+// function showQuestion2 (evt) {
+//   console.log('test Q2')
+
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board3[0].questionsData[1].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board3[0].questionsData[1].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board3[0].questionsData[1].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board3[0].questionsData[1].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// //WD question 3
+// var wD3button = document.querySelector('.cat3 .q300')
+// wD3button.addEventListener('click',showQuestion3)
+// function showQuestion3 (evt) {
+//   console.log('test Q3')
+
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board3[0].questionsData[2].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board3[0].questionsData[2].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board3[0].questionsData[2].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board3[0].questionsData[2].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// //WD question 4
+// var wD4button = document.querySelector('.cat3 .q400')
+// wD4button.addEventListener('click', showQuestion4)
+// function showQuestion4 (evt) {
+//   console.log('test Q4')
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board3[0].questionsData[3].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board3[0].questionsData[3].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board3[0].questionsData[3].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board3[0].questionsData[3].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// MB question 1
+var mB1button = document.querySelector('.cat4 .q100')
+mB1button.addEventListener('click', showQuestion1)
+function showQuestion1 (evt) {
+  console.log('test Q1')
+
+  var qDisplayField = document.querySelector('.question-display')
+  var radioOne = document.getElementById('opt1')
+  var AnswerChoice1 = board4[0].questionsData[0].answers[0]
+  console.log(AnswerChoice1)
+
+  var radioTwo = document.getElementById('opt2')
+  var AnswerChoice2 = board4[0].questionsData[0].answers[1]
+  console.log(AnswerChoice2)
+
+  var radioThree = document.getElementById('opt3')
+  var AnswerChoice3 = board4[0].questionsData[0].answers[2]
+  console.log(AnswerChoice3)
+
+  qDisplayField.innerHTML = board4[0].questionsData[0].question
+  radioOne.innerHTML = AnswerChoice1
+  radioTwo.innerHTML = AnswerChoice2
+  radioThree.innerHTML = AnswerChoice3
+}
+// MB question 2
+var mB2button = document.querySelector('.cat4 .q200')
+mB2button.addEventListener('click',showQuestion2)
+function showQuestion2 (evt) {
+  console.log('test Q2')
+
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board4[0].questionsData[1].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board4[0].questionsData[1].answers[1]
+console.log(AnswerChoice2)
+
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board4[0].questionsData[1].answers[2]
+console.log(AnswerChoice3)
+
+  qDisplayField.innerHTML=board4[0].questionsData[1].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
+
+//MB question 3
+var mB3button = document.querySelector('.cat4 .q300')
+mB3button.addEventListener('click',showQuestion3)
+function showQuestion3 (evt) {
+  console.log('test Q3')
+
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board4[0].questionsData[2].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board4[0].questionsData[2].answers[1]
+console.log(AnswerChoice2)
+
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board4[0].questionsData[2].answers[2]
+console.log(AnswerChoice3)
+
+  qDisplayField.innerHTML=board4[0].questionsData[2].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
+
+//mB question 4
+var mB4button = document.querySelector('.cat4 .q400')
+mB4button.addEventListener('click', showQuestion4)
+function showQuestion4 (evt) {
+  console.log('test Q4')
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board4[0].questionsData[3].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board4[0].questionsData[3].answers[1]
+console.log(AnswerChoice2)
+
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board4[0].questionsData[3].answers[2]
+console.log(AnswerChoice3)
+
+  qDisplayField.innerHTML=board4[0].questionsData[3].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
 
 // keeping score: parsFloat(document.querySelector(
   // can parsefloat be used?
