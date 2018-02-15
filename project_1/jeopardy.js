@@ -119,62 +119,56 @@ var board3 = [
     ]
   }
 ]
-//     title: Metro Blues
 
-//           question:'What are the two closest metro stops to GA?',
-//           answers: [
-//             'Metro Center and Fargut North'
-//             'China Town and Metro Center'
-//             'Farragut North and McPherson Square'
-//           ]
-//         ],
-//           correctAnswer: 'Farragut North and McPherson Square'
-//       },
-//       {
-//         question: 'What are the two ends of the redline train?'
-//         answers: [
-//           'Navy Yard and Tysons',
-//           'Branch Ave and Silver Spring',
-//           'Shady Grove and Silver Spring'
-//         ]
-//       ],
-//           correctAnswer: Silver Spring and Shady Grove
-//     },
-//     {
-//         question: 'What are is the three letter abbreviation for the airport that has a stop off of the metro line?',
-//         answers: [
-//           'IAD'
-//           'BWI'
-//           'DCA'
+// this is the start of a new section***********************************
+var board4 = [
+  {
+    title: 'Metro Blues',
+    questionsData: [
+      {question: 'What are the two closest metro stops to GA?',
+        answers: [
+          'Metro Center and Fargut North',
+          'China Town and Metro Center',
+          'Farragut North and McPherson Square'
+        ],
+        correctAnswer: 'Farragut North and McPherson Square'
+      },
+      {question: 'What are the two ends of the redline train?',
+        answers: [
+          'Navy Yard and Tysons',
+          'Branch Ave and Silver Spring',
+          'Shady Grove and Silver Spring'
+        ],
+        correctAnswer: 'Silver Spring and Shady Grove'
+      },
+      {question: 'What are is the three letter abbreviation for the airport that has a stop off of the metro line?',
+        answers: [
+          'IAD',
+          'BWI',
+          'DCA'
+        ],
+        correctAnswer: 'DCA'
+      },
+      {question: 'How many escalators escalators  are there on the L street exit of Fargot North',
+        answers: [
+          '1',
+          '3',
+          '2'
+        ],
+        correctAnswer: '3'
+      },
+      {question: 'What is the pharmacy located on the corner of L and 19th at the metro exit?',
+        answers: [
+          'Walgreens',
+          'CVS',
+          'Peoples'
+        ],
+        correctAnswer: 'CVS'
 
-//         ]
-//       ],
-//           correctAnswer: "DCA"
-//     },
-//     {
-//       question: 'How many escalators escalators  are there on the L street exit of Fargot North',
-//       answers: [
-//         '1'
-//         '3'
-//         '2'
-//         ]
-//       ],
-//         correctAnswer: '3'
-//     },
-//     {
-//       question: 'What is the pharmacy located on the corner of L and 19th at the metro exit?',
-//       answers: [
-//         'Walgreens'
-//         'CVS'
-//         'Peoples'
-//         ]
-//       ],
-//           correctAnswer: 'CVS'
-
-//       },
-//     }
-//   ]
-// // ]
+      }
+    ]
+  }
+]
 
 // //GA question 1
 // var gaga1button = document.querySelector('.cat1 .q100')
