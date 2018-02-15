@@ -367,6 +367,13 @@ function showQuestion42 (evt) {
   radioThree.innerHTML = AnswerChoice3
 }
 
+var currentAnswersW4 = board2[0].questionsData[3].correctAnswer[0]
+var checksW4Button = document.querySelector(".daFinal")
+checksW4Button.addEventListener('click', displayAnswersW4)
+function displayAnswersW4 (evt) {
+  console.log('The answer is' +' '+ currentAnswersW4)
+}
+
 // // WD question 1
 var wD1button = document.querySelector('.cat3 .q100')
 wD1button.addEventListener('click', showQuestion13)
@@ -391,6 +398,14 @@ function showQuestion13 (evt) {
   radioTwo.innerHTML = AnswerChoice2
   radioThree.innerHTML = AnswerChoice3
 }
+
+var currentAnswerwD1 = board3[0].questionsData[0].correctAnswer[0]
+var checkwD1Button = document.querySelector(".daFinal")
+checkwD1Button.addEventListener('click', displayAnswerwD1)
+function displayAnswerwD1 (evt) {
+  console.log('The answer is' +' '+ currentAnswerwD1)
+}
+
 // // WD question 2
 var wD2button = document.querySelector('.cat3 .q200')
 wD2button.addEventListener('click',showQuestion23)
@@ -414,6 +429,13 @@ function showQuestion23 (evt) {
   radioOne.innerHTML = AnswerChoice1
   radioTwo.innerHTML = AnswerChoice2
   radioThree.innerHTML = AnswerChoice3
+}
+
+var currentAnswerwD2 = board3[0].questionsData[1].correctAnswer[0]
+var checkwD2Button = document.querySelector(".daFinal")
+checkwD2Button.addEventListener('click', displayAnswerwD2)
+function displayAnswerwD2 (evt) {
+  console.log('The answer is' +' '+ currentAnswerwD2)
 }
 
 // //WD question 3
@@ -441,6 +463,13 @@ function showQuestion33 (evt) {
   radioThree.innerHTML = AnswerChoice3
 }
 
+var currentAnswerwD3 = board3[0].questionsData[2].correctAnswer[0]
+var checkwD3Button = document.querySelector(".daFinal")
+checkwD3Button.addEventListener('click', displayAnswerwD3)
+function displayAnswerwD3 (evt) {
+  console.log('The answer is' +' '+ currentAnswerwD3)
+}
+
 //WD question 4
 var wD4button = document.querySelector('.cat3 .q400')
 wD4button.addEventListener('click', showQuestion43)
@@ -463,6 +492,13 @@ function showQuestion43 (evt) {
   radioOne.innerHTML = AnswerChoice1
   radioTwo.innerHTML = AnswerChoice2
   radioThree.innerHTML = AnswerChoice3
+}
+
+var currentAnswerwD4 = board3[0].questionsData[3].correctAnswer[0]
+var checkwD4Button = document.querySelector(".daFinal")
+checkwD4Button.addEventListener('click', displayAnswerwD4)
+function displayAnswerwD4 (evt) {
+  console.log('The answer is' +' '+ currentAnswerwD4)
 }
 
 // MB question 1
@@ -493,9 +529,10 @@ function showQuestion14 (evt) {
 var currentAnswermb1 = board4[0].questionsData[0].correctAnswer[0]
 var checkmB1Button = document.querySelector(".daFinal")
 checkmB1Button.addEventListener('click', displayAnswermB1)
-function displayAnswermB1 () {
-  window.alert('The answer is' +' '+ currentAnswermb1)
+function displayAnswermB1 (evt) {
+  console.log('The answer is' +' '+ currentAnswermb1)
 }
+
 // MB question 2
 var mB2button = document.querySelector('.cat4 .q200')
 mB2button.addEventListener('click', showQuestion24)
@@ -524,9 +561,10 @@ function showQuestion24 (evt) {
 var currentAnswermB2 = board4[0].questionsData[1].correctAnswer[0]
 var checkmB2Button = document.querySelector(".daFinal")
 checkmB2Button.addEventListener('click', displayAnswermB2)
-function displayAnswermB2 () {
-  window.alert('The answer is' +' '+ currentAnswermB2)
+function displayAnswermB2 (evt) {
+  console.log('The answer is' +' '+ currentAnswermB2)
 }
+
 //MB question 3
 var mB3button = document.querySelector('.cat4 .q300')
 mB3button.addEventListener('click', showQuestion34)
@@ -556,8 +594,8 @@ function showQuestion34 (evt) {
 var currentAnswermB3 = board4[0].questionsData[2].correctAnswer[0]
 var checkmB3Button = document.querySelector(".daFinal")
 checkmB3Button.addEventListener('click', displayAnswermB3)
-function displayAnswermB3 () {
-  window.alert('The answer is' +' '+ currentAnswermB3)
+function displayAnswermB3 (evt) {
+  console.log('The answer is' +' '+ currentAnswermB3)
 }
 
 //mB question 4
@@ -571,24 +609,23 @@ function showQuestion44 (evt) {
 
   var radioTwo = document.getElementById("opt2")
   var AnswerChoice2 = board4[0].questionsData[3].answers[1]
-  console.log(AnswerChoice2)
+  
 
   var radioThree = document.getElementById("opt3")
   var AnswerChoice3 = board4[0].questionsData[3].answers[2]
-  console.log(AnswerChoice3)
+  
 
   qDisplayField.innerHTML = board4[0].questionsData[3].question
   radioOne.innerHTML = AnswerChoice1
   radioTwo.innerHTML = AnswerChoice2
   radioThree.innerHTML = AnswerChoice3
 }
-
-var currentAnswermB4 = board4[0].questionsData[3].correctAnswer[0]
-var checkmB4Button = document.querySelector(".daFinal")
-checkmB4Button.addEventListener('click', displayAnswermB4)
-function displayAnswermB4 () {
-  console.log('The answer is' +' '+ currentAnswermB4)
-}
+// var currentAnswermB4 = board4[0].questionsData[3].correctAnswer[0]
+// var checkmB4Button = document.querySelector(".daFinal")
+// checkmB4Button.addEventListener('click', displayAnswermB4)
+// function displayAnswermB4 (evt) {
+// console.log('The answer is' +' '+ currentAnswermB4)
+// }
 
 //   // function disableButton () {
 //   //   document.querySelector('.cat4 .q400').disabled = 'true'
