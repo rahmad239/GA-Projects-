@@ -1,7 +1,7 @@
 // // think about how you want to structure your data
 var board = [
   {
-    title: "GAGA for GA",
+    title: 'GAGA for GA',
     questionsData: [
       {question: 'What caused the fire alarm to sound last time it went off?',
         answers: [
@@ -9,7 +9,7 @@ var board = [
           'Burning Plastic',
           'Burning Popcorn'
         ],
-        correctAnswer: 'Burning Popcorn' /* is this bracket in the right place*/
+        correctAnswer: 'Burning Popcorn' /* is this bracket in the right place */
       },
       {question: 'How many jars of crunchy peanut butter containers are put out daily?',
         answers: [
@@ -28,7 +28,7 @@ var board = [
         ],
         correctAnswer: 'Unicorn'
       },
-      {question: 'Question: What time does the office close for students?', 
+      {question: 'Question: What time does the office close for students?',
         answers: [
           '11',
           '10:30',
@@ -37,153 +37,99 @@ var board = [
         correctAnswer: '10'
       }
     ]
-  },
+  }
 ]
- 
-
-    // {
-    // title: "Star Wars",
-    // questionsData: [
-    //   {question: 'What are the names of the twins on star wars?',
-    //     answers: [
-    //       'Hans & Leia',
-    //       'Luke & Leslie',
-    //       'Christian & Anastasia'
-    //     ],
-    //     correctAnswer: 'Luke & Leia'
-    //   },
-    //   {question: 'Hans solo had one main fighting companion. What was their name?',
-    //     answers: [
-    //       'R2D2',
-    //       'Chubaka',
-    //       'Princess Leia'
-    //     ],
-    //     correctAnswer: 'chewbacca'
-    //   },
-    //   {question: 'What planet is lukes mother from?',
-    //     answers: [
-    //       'Naboo', 
-    //       'Earth 2',
-    //       'Vonkru'
-    //     ],
-    //     correctAnswer: 'Naboo'
-    //   },
-    //   {question: 'What species resides on the forest moon of Endor?',
-    //     answers: [
-    //       'Ewok',
-    //       'Hutt',
-    //       'Droid'
-    //     ],
-    //     correctAnswer: 'Ewoke'
-    //   } 
-    // ]  
-    
-    
-      // title: "Classmates? Who day?",
-//         {
-//           question: 'How many students are in WDI 21?',
-//           answers:  [
-//             '21',
-//             '19',
-//             '18',
-//             ]
-//           ],  
-//             correctAnswer: '19'
-//           },
-//           {
-//           question: 'Who traveles the farthest to attend the program?',
-//           answers:  [
-//             'Qya',
-//             'Kevin',
-//             'Timmy'
-//             ]
-//          correctAnswer: 'Qya',  
-//         },
-//         {
-//         question: 'How many students wear glasses to class?',
-//         answers:  [
-//           '11',
-//           '14',
-//           '7'
-//           ]
-//         ], 
-//         correctAnswer: '7',
-//         },
-//         { 
-//          question:'How many students live with their parents for the class?',
-//          answers: [
-//            '7',
-//            '9',
-//            '13'
-//             ]
-//           ],
-//           correctAnswer: '11'
-//         },
-//         {
-//           question: 'How many students previously attended classes in programing prior to the cohort?',
-//           answers: [
-//             '4',
-//             '3',
-//             '8'
-//           ]
-//           correctAnswer: '8'
-//         },
-//       ],  
-//     {
-//     title: "Sup teach?"
-//           question: 'Combined how many years of teaching exp do our teachers have?',
-//           answers: [
-//             '2',
-//             '6',
-//             '8'
-//           ]
-//         ],
-//           correctAnswer: '8'
-//         },
-//         { 
-//         question: 'Where is meg from?', 
-//         answers: [
-//           'IL',
-//           'CA',
-//           'DC'
-//           ]
-//         ],  
-//           correctAnswer: 'DC'
-//       },  
-//       { 
-//         question: 'What state does perry rep on his sweatshirt?',
-//         answers: [
-//           'Maryland',
-//           'Pennsylvania',
-//           'Arizona'
-//           ]
-//         ],
-//           correctAnswer: 'Arizona'
-//       },
-//       {          
-//         question: 'Which WDI cohorts were meg, perry and zakk in?',
-//         answers: [
-//           '16, 18, 3'
-//           '19, 12, 8'
-//           '17, 15, 7'
-//           ]
-//         ],
-//           correctAnswer: '19, 12, 8'
-//       },     
-//       {
-//         question: 'What does Zakks tattoo say?',
-//         answers: [
-//           'mind yours!'
-//           'js 4 lyfe'
-//           '???'
-//           ]
-//         ],
-//           correctAnswer: '???'
-//       },
-//       {
+// this is the start of a new section***********************************
+var board2 = [
+  {
+    title: 'Star Wars',
+    questionsData: [
+      {question: 'What are the names of the twins on star wars?',
+        answers: [
+          'Hans & Leia',
+          'Luke & Leslie',
+          'Christian & Anastasia'
+        ],
+        correctAnswer: 'Luke & Leia'
+      },
+      {question: 'Hans solo had one main fighting companion. What was thier name?',
+        answers: [
+          'R2D2',
+          'Chewbacca',
+          'Princess Leia'
+        ],
+        correctAnswer: 'Chewbacca'
+      },
+      {question: 'What planet is Lukes mother from?',
+        answers: [
+          'Naboo',
+          'Earth 2',
+          'Vonkru'
+        ],
+        correctAnswer: 'Naboo'
+      },
+      {question: 'What species resides on the forest moon of Endor?',
+        answers: [
+          'Ewok',
+          'Hutt',
+          'Droid'
+        ],
+        correctAnswer: 'Ewoke'
+      }
+    ]
+  }
+]
+// this is the start of a new section***********************************
+var board3 = [
+  {
+    title: "Classmates? Who day?",
+    questionsData: [        
+      {question: 'How many students are in WDI 21?',
+        answers:  [
+          '21',
+          '19',
+          '18'
+        ],
+        correctAnswer: '19'
+      },
+      {question: 'Who traveles the farthest to attend the program?',
+        answers:  [
+          'Qya',
+          'Kevin',
+          'Timmy'
+        ],
+        correctAnswer: 'Qya',
+      },
+      {question:'How many students wear glasses to class?',
+        answers:  [
+          '11',
+          '14',
+          '7'
+        ],
+        correctAnswer: '7',
+      },
+      {question: 'How many students live with their parents for the class?',
+        answers: [
+          '7',
+          '9',
+          '13'
+        ],
+        correctAnswer: '11'
+      },
+        {question: 'How many students previously attended classes in programing prior to the cohort?',
+          answers: [
+            '4',
+            '3',
+            '8'
+        ]
+        correctAnswer: '8'
+      }
+    ]
+  }
+]
 //     title: Metro Blues
-          
-//           question:'What are the two closest metro stops to GA?', 
+
+//           question:'What are the two closest metro stops to GA?',
 //           answers: [
 //             'Metro Center and Fargut North'
 //             'China Town and Metro Center'
@@ -192,7 +138,7 @@ var board = [
 //         ],
 //           correctAnswer: 'Farragut North and McPherson Square'
 //       },
-//       { 
+//       {
 //         question: 'What are the two ends of the redline train?'
 //         answers: [
 //           'Navy Yard and Tysons',
@@ -202,13 +148,13 @@ var board = [
 //       ],
 //           correctAnswer: Silver Spring and Shady Grove
 //     },
-//     {  
+//     {
 //         question: 'What are is the three letter abbreviation for the airport that has a stop off of the metro line?',
 //         answers: [
 //           'IAD'
 //           'BWI'
 //           'DCA'
-    
+
 //         ]
 //       ],
 //           correctAnswer: "DCA"
@@ -232,109 +178,209 @@ var board = [
 //         ]
 //       ],
 //           correctAnswer: 'CVS'
-          
+
 //       },
 //     }
-//   ]         
-// // ]       
+//   ]
+// // ]
 
-//GA question 1
-var gaga1button = document.querySelector('.cat1 .q100')
-gaga1button.addEventListener('click',showQuestion1)
-function showQuestion1 (evt) {
-  console.log('test Q1') 
-var qDisplayField = document.querySelector('.question-display')
-var radioOne = document.getElementById("opt1")
-var AnswerChoice1= board[0].questionsData[0].answers[0]
-console.log(AnswerChoice1)
+// //GA question 1
+// var gaga1button = document.querySelector('.cat1 .q100')
+// gaga1button.addEventListener('click',showQuestion1)
+// function showQuestion1 (evt) {
+//   console.log('test Q1')
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board[0].questionsData[0].answers[0]
+// console.log(AnswerChoice1)
 
-var radioTwo = document.getElementById("opt2")
-var AnswerChoice2= board[0].questionsData[0].answers[1]
-console.log(AnswerChoice2)
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board[0].questionsData[0].answers[1]
+// console.log(AnswerChoice2)
 
-var radioThree = document.getElementById("opt3")
-var AnswerChoice3= board [0].questionsData[0].answers[2]
-console.log(AnswerChoice3)
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board [0].questionsData[0].answers[2]
+// console.log(AnswerChoice3)
 
-  qDisplayField.innerHTML=board[0].questionsData[0].question
-  radioOne.innerHTML=AnswerChoice1
-  radioTwo.innerHTML=AnswerChoice2
-  radioThree.innerHTML=AnswerChoice3
-}
+//   qDisplayField.innerHTML=board[0].questionsData[0].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
 
-//GA question 2
-var gaga2button = document.querySelector('.cat1 .q200')
-gaga2button.addEventListener('click',showQuestion2)
-function showQuestion2 (evt) {
-  console.log('test Q2') 
+// //GA question 2
+// var gaga2button = document.querySelector('.cat1 .q200')
+// gaga2button.addEventListener('click',showQuestion2)
+// function showQuestion2 (evt) {
+//   console.log('test Q2')
 
-var qDisplayField = document.querySelector('.question-display')
-var radioOne = document.getElementById("opt1")
-var AnswerChoice1= board[0].questionsData[1].answers[0]
-console.log(AnswerChoice1)
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board[0].questionsData[1].answers[0]
+// console.log(AnswerChoice1)
 
-var radioTwo = document.getElementById("opt2")
-var AnswerChoice2= board[0].questionsData[1].answers[1]
-console.log(AnswerChoice2)
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board[0].questionsData[1].answers[1]
+// console.log(AnswerChoice2)
 
-var radioThree = document.getElementById("opt3")
-var AnswerChoice3= board [0].questionsData[1].answers[2]
-console.log(AnswerChoice3)
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board [0].questionsData[1].answers[2]
+// console.log(AnswerChoice3)
 
-  qDisplayField.innerHTML=board[0].questionsData[1].question
-  radioOne.innerHTML=AnswerChoice1
-  radioTwo.innerHTML=AnswerChoice2
-  radioThree.innerHTML=AnswerChoice3
-}
+//   qDisplayField.innerHTML=board[0].questionsData[1].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
 
-//GA question 3
-var gaga3button = document.querySelector('.cat1 .q300')
-gaga3button.addEventListener('click',showQuestion3)
-function showQuestion3 (evt) {
-  console.log('test Q3')
+// //GA question 3
+// var gaga3button = document.querySelector('.cat1 .q300')
+// gaga3button.addEventListener('click',showQuestion3)
+// function showQuestion3 (evt) {
+//   console.log('test Q3')
 
-var qDisplayField = document.querySelector('.question-display')
-var radioOne = document.getElementById("opt1")
-var AnswerChoice1= board[0].questionsData[2].answers[0]
-console.log(AnswerChoice1)
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board[0].questionsData[2].answers[0]
+// console.log(AnswerChoice1)
 
-var radioTwo = document.getElementById("opt2")
-var AnswerChoice2= board[0].questionsData[2].answers[1]
-console.log(AnswerChoice2)
-  
-var radioThree = document.getElementById("opt3")
-var AnswerChoice3= board [0].questionsData[2].answers[2]
-console.log(AnswerChoice3)
-  
-  qDisplayField.innerHTML=board[0].questionsData[2].question
-  radioOne.innerHTML=AnswerChoice1
-  radioTwo.innerHTML=AnswerChoice2
-  radioThree.innerHTML=AnswerChoice3
-}
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board[0].questionsData[2].answers[1]
+// console.log(AnswerChoice2)
 
-//GA question 4
-var gaga4button = document.querySelector('.cat1 .q400')
-gaga4button.addEventListener('click', showQuestion4)
-function showQuestion4 (evt) {
-  console.log('test Q4') 
-var qDisplayField = document.querySelector('.question-display')
-var radioOne = document.getElementById("opt1")
-var AnswerChoice1= board[0].questionsData[3].answers[0]
-console.log(AnswerChoice1)
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board [0].questionsData[2].answers[2]
+// console.log(AnswerChoice3)
 
-var radioTwo = document.getElementById("opt2")
-var AnswerChoice2= board[0].questionsData[3].answers[1]
-console.log(AnswerChoice2)
-  
-var radioThree = document.getElementById("opt3")
-var AnswerChoice3= board [0].questionsData[3].answers[2]
-console.log(AnswerChoice3)
-  
-  qDisplayField.innerHTML=board[0].questionsData[3].question
-  radioOne.innerHTML=AnswerChoice1
-  radioTwo.innerHTML=AnswerChoice2
-  radioThree.innerHTML=AnswerChoice3
-}
+//   qDisplayField.innerHTML=board[0].questionsData[2].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// //GA question 4
+// var gaga4button = document.querySelector('.cat1 .q400')
+// gaga4button.addEventListener('click', showQuestion4)
+// function showQuestion4 (evt) {
+//   console.log('test Q4')
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board[0].questionsData[3].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board[0].questionsData[3].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board [0].questionsData[3].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board[0].questionsData[3].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// SW question 1
+// var sW1button = document.querySelector('.cat2 .q100')
+// sW1button.addEventListener('click', showQuestion1)
+// function showQuestion1 (evt) {
+//   console.log('test Q1')
+
+//   var qDisplayField = document.querySelector('.question-display')
+//   var radioOne = document.getElementById('opt1')
+//   var AnswerChoice1 = board2[0].questionsData[0].answers[0]
+//   console.log(AnswerChoice1)
+
+//   var radioTwo = document.getElementById('opt2')
+//   var AnswerChoice2 = board2[0].questionsData[0].answers[1]
+//   console.log(AnswerChoice2)
+
+//   var radioThree = document.getElementById('opt3')
+//   var AnswerChoice3 = board2[0].questionsData[0].answers[2]
+//   console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML = board2[0].questionsData[0].question
+//   radioOne.innerHTML = AnswerChoice1
+//   radioTwo.innerHTML = AnswerChoice2
+//   radioThree.innerHTML = AnswerChoice3
+// }
+//SW question 2
+// var sW2button = document.querySelector('.cat2 .q200')
+// sW2button.addEventListener('click',showQuestion2)
+// function showQuestion2 (evt) {
+//   console.log('test Q2')
+
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board2[0].questionsData[1].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board2[0].questionsData[1].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board2[0].questionsData[1].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board2[0].questionsData[1].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// //SW question 3
+// var sW3button = document.querySelector('.cat2 .q300')
+// sW3button.addEventListener('click',showQuestion3)
+// function showQuestion3 (evt) {
+//   console.log('test Q3')
+
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board2[0].questionsData[2].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board2[0].questionsData[2].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board2[0].questionsData[2].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board2[0].questionsData[2].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+// //SW question 4
+// var sW4button = document.querySelector('.cat2 .q400')
+// sW4button.addEventListener('click', showQuestion4)
+// function showQuestion4 (evt) {
+//   console.log('test Q4')
+// var qDisplayField = document.querySelector('.question-display')
+// var radioOne = document.getElementById("opt1")
+// var AnswerChoice1= board2[0].questionsData[3].answers[0]
+// console.log(AnswerChoice1)
+
+// var radioTwo = document.getElementById("opt2")
+// var AnswerChoice2= board2[0].questionsData[3].answers[1]
+// console.log(AnswerChoice2)
+
+// var radioThree = document.getElementById("opt3")
+// var AnswerChoice3= board2[0].questionsData[3].answers[2]
+// console.log(AnswerChoice3)
+
+//   qDisplayField.innerHTML=board2[0].questionsData[3].question
+//   radioOne.innerHTML=AnswerChoice1
+//   radioTwo.innerHTML=AnswerChoice2
+//   radioThree.innerHTML=AnswerChoice3
+// }
+
+
 
 // keeping score: parsFloat(document.querySelector(
   // can parsefloat be used?
@@ -351,3 +397,5 @@ console.log(AnswerChoice3)
 // if ($('.required input:checked').length > 0) {
 
 // }
+
+//ask how to stop the reassignment of the variable. Can I seperate into different arrays?
