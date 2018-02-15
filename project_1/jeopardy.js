@@ -236,96 +236,108 @@ var board = [
 //       },
 //     }
 //   ]         
-// ]       
+// // ]       
 
-var qDisplayField = document.querySelector('.question-display')
-var radioOne = document.querySelector('.radios')
-
-//define buttons//
-var gaga1button = document.querySelector('.cat1 .Q100')
+//GA question 1
+var gaga1button = document.querySelector('.cat1 .q100')
 gaga1button.addEventListener('click',showQuestion1)
 function showQuestion1 (evt) {
   console.log('test Q1') 
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board[0].questionsData[0].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board[0].questionsData[0].answers[1]
+console.log(AnswerChoice2)
+
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board [0].questionsData[0].answers[2]
+console.log(AnswerChoice3)
+
   qDisplayField.innerHTML=board[0].questionsData[0].question
-  radioOne.innerHTML = board[0].questionsData[0].answers[0]
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
 }
 
+//GA question 2
+var gaga2button = document.querySelector('.cat1 .q200')
+gaga2button.addEventListener('click',showQuestion2)
+function showQuestion2 (evt) {
+  console.log('test Q2') 
 
-// for (var i = 0; i < board.length; i+=3) {
-//   let gagaQuestion = questions[i]
-//   let displayQuestion = gagaQuestion
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board[0].questionsData[1].answers[0]
+console.log(AnswerChoice1)
 
-// var gaga2button = document.querySelector('.cat1 .Q200')
-// gaga2button.addEventListener('click',showQuestion2)
-// function showQuestion2 (evt) {
-//   console.log('test Q2') 
-// }
-// var gaga3button = document.querySelector('.cat1 .Q300')
-// gaga3button.addEventListener('click',showQuestion3)
-// function showQuestion3 (evt) {
-//   console.log('test Q3')
-// }
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board[0].questionsData[1].answers[1]
+console.log(AnswerChoice2)
 
-// var gaga4button = document.querySelector('.cat1 .Q400')
-// gaga4button.addEventListener('click', showQuestion4)
-// function showQuestion4 (evt) {
-//   console.log('test Q4') 
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board [0].questionsData[1].answers[2]
+console.log(AnswerChoice3)
 
-// }
-//figure out how to get the test question in
-// var questionField = document.querySelector('.question')
-// questionField.addEventListener()
-// ga100.Question
+  qDisplayField.innerHTML=board[0].questionsData[1].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
 
-// console.log(questionField)
+//GA question 3
+var gaga3button = document.querySelector('.cat1 .q300')
+gaga3button.addEventListener('click',showQuestion3)
+function showQuestion3 (evt) {
+  console.log('test Q3')
 
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board[0].questionsData[2].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board[0].questionsData[2].answers[1]
+console.log(AnswerChoice2)
+  
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board [0].questionsData[2].answers[2]
+console.log(AnswerChoice3)
+  
+  qDisplayField.innerHTML=board[0].questionsData[2].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
+
+//GA question 4
+var gaga4button = document.querySelector('.cat1 .q400')
+gaga4button.addEventListener('click', showQuestion4)
+function showQuestion4 (evt) {
+  console.log('test Q4') 
+var qDisplayField = document.querySelector('.question-display')
+var radioOne = document.getElementById("opt1")
+var AnswerChoice1= board[0].questionsData[3].answers[0]
+console.log(AnswerChoice1)
+
+var radioTwo = document.getElementById("opt2")
+var AnswerChoice2= board[0].questionsData[3].answers[1]
+console.log(AnswerChoice2)
+  
+var radioThree = document.getElementById("opt3")
+var AnswerChoice3= board [0].questionsData[3].answers[2]
+console.log(AnswerChoice3)
+  
+  qDisplayField.innerHTML=board[0].questionsData[3].question
+  radioOne.innerHTML=AnswerChoice1
+  radioTwo.innerHTML=AnswerChoice2
+  radioThree.innerHTML=AnswerChoice3
+}
 
 // keeping score: parsFloat(document.querySelector(
   // can parsefloat be used?
-
-
-// var starWars100 = document.querySelector('#cat2.100')
-//     Question: What are the names of the twins on star wars?
-//     Answer: 'Luke & Leia'
-//     opt1: 'Hans & Leia'
-//     opt2: 'Luke & Leslie'
-//     opt3: 'Christian & Anastasia'
-
-// var starWars200 = document.querySelector('#cat2.200')
-//     Question: Hans solo had one main fighting companion. What was their name?
-//     Answer:
-//     opt1: 'Hans & Leia'
-//     opt2: 'Luke & Leslie'
-//     opt3: 'Christian & Anastasia'
-
-
-// var ga100 = {
-//   Question: 'How many jars of crunchy peanut butter containers are put out daily?'
-//   Answer: '2'
-//   opt1: '3'
-//   opt2:'2'
-//   opt3:'1'
-//   cat: 'gagaForGa'
-//   loc: '#cat1 .100'
-
-// var ga200 = function () {
-//   Question: 'What caused the fire alarm to sound last time it went off?'
-//   Answer: 'Burning Popcorn'
-//   opt1: 'Burning Bread'
-//   opt2: 'Burning Plastic'
-//   opt3: 'Burning Popcorn'
-//   cat: 'gagaForGa'
-//   tile: '#cat1 .200'
-// }
-
-// var ga300 = function () {
-//   Question: 'What animal does the robot near the bathroom claim to be?'
-//   Answer: 'Unicorn'
-//   opt1: 'Unicorn'
-//   opt2: 'Bunny Rabbit'
-//   opt3: 'Puppy'
-//   cat: 'gagaForGa'
-//   tile: '#cat1 .300'
 
 // let instructors = ["meg", "zakk", "perry", "james", "ali", "max", "mike"]
 // let currentInstructor = prompt('Who is currently teaching?')
